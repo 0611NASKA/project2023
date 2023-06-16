@@ -90,9 +90,29 @@ margin-left:auto;
   font-size: 30px;
 }
 
+.menu{
+  display: flex;
+  justify-content: center;
+}
+
 .menu-navi{
-	display: flex;
-	flex-wrap: wrap;/*スマホ表示折り返し用なのでPCのみなら不要*/
+  display: flex;
+  flex-wrap: wrap;/*スマホ表示折り返し用なのでPCのみなら不要*/
 	margin-right: 50px;
 	list-style: none;
+}
+
+.about{
+  font-size: 250%;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.about-item{
+  font-size: 150%;
+  color: white;
+  text-align: center;
 }
