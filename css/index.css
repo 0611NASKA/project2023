@@ -168,3 +168,20 @@ margin-left:auto;
 .blue{
   background: blue;
 }
+
+#back {
+  z-index: 1;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+#back img {
+  width: 50px;
+}
+
+@media (max-width: 991px) {
+  .title{
+    font-size: 90%;
+  }
+}
