@@ -1,3 +1,23 @@
+html{
+  height: 100%;
+}
+
+body{
+  height: 100%;
+}
+
+header{
+  height: 5%;
+}
+
+footer{
+  height: 5%;
+}
+
+main{
+  height: 90%;
+}
+
 .navbar-toggler {
   z-index: 1;
 }
@@ -7,7 +27,8 @@ li {
 }
 
 .background {
-  background: #B4D2D2
+  background: #B4D2D2;
+  height: 100%;
 }
 
 /* 見出し */
