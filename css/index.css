@@ -80,23 +80,6 @@ header .heading { /* headerタグ内のheadingクラスにのみ反映される 
 margin-left:auto;
 }
 
-.gnavi{
-	display: flex;
-	flex-wrap: wrap;/*スマホ表示折り返し用なのでPCのみなら不要*/
-	margin:0 0 0 0;
-	list-style: none;
-}
-
-.gnavi li a{
-	display: block;
-	padding:10px 30px;
-	text-decoration: none;
-}
-
-.gnavi li{
-	margin-bottom:10px;
-}
-
 .header-nav{
   font-weight: bold;
   font-size: 30px;
