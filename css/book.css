@@ -1,21 +1,20 @@
-html{
-  height: 100%;
-}
-
 body{
   height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 header{
   height: 5%;
 }
 
-footer{
-  height: 5%;
-}
-
 main{
   height: 90%;
+}
+
+footer{
+  height: 5%;
 }
 
 .navbar-toggler {
@@ -27,8 +26,8 @@ li {
 }
 
 .background {
-  background: #B4D2D2;
-  height: 100%;
+  background-color: #B4D2D2;
+  min-height: 100vh;
 }
 
 /* 見出し */
@@ -53,4 +52,27 @@ li {
 
 .heading:after {
   margin-left: 2rem;
+}
+
+/* 本文 */
+.text{
+  display: flex;
+  justify-content: center;
+  font-size: 185%;
+}
+
+/* 成果物 */
+.achieve{
+  height: 100%;
+  width: 100%;
+}
+
+.achievement{
+  font-size: 170%;
+}
+
+.last-achieve{
+  text-align: center;
+  font-weight: bold;
+  font-size: 200%;
 }
