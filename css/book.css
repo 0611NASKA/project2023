@@ -2,6 +2,34 @@
   z-index: 1;
 }
 
-li{
+li {
   margin: 10px;
+}
+
+.background {
+  background: #B4D2D2
+}
+
+/* 見出し */
+.heading {
+  display: flex;
+  align-items: center;
+  font-size: 200%;
+}
+
+/* 見出しの左右に線 */
+.heading:before,
+.heading:after {
+  content: "";
+  height: 2px;
+  flex-grow: 1;
+  background-color: #000;
+}
+
+.heading:before {
+  margin-right: 2rem;
+}
+
+.heading:after {
+  margin-left: 2rem;
 }
