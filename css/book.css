@@ -30,6 +30,11 @@ li {
   min-height: 100vh;
 }
 
+.header-nav{
+  font-weight: bold;
+  font-size: 30px;
+}
+
 /* 見出し */
 .heading {
   display: flex;
