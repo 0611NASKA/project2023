@@ -1,0 +1,90 @@
+body{
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+header{
+  height: 5%;
+}
+
+main{
+  height: 90%;
+}
+
+footer{
+  height: 5%;
+}
+
+.navbar-toggler {
+  z-index: 1;
+}
+
+li {
+  margin: 10px;
+}
+
+.background {
+  background-color: #FFCD91;
+  min-height: 100vh;
+}
+
+.header-nav{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* 見出し */
+.heading {
+  display: flex;
+  align-items: center;
+  font-size: 200%;
+}
+
+/* 見出しの左右に線 */
+.heading:before,
+.heading:after {
+  content: "";
+  height: 2px;
+  flex-grow: 1;
+  background-color: #000;
+}
+
+.heading:before {
+  margin-right: 2rem;
+}
+
+.heading:after {
+  margin-left: 2rem;
+}
+
+/* 本文 */
+.text{
+  display: flex;
+  justify-content: center;
+  font-size: 185%;
+}
+
+/* 成果物 */
+.achieve{
+  height: 100%;
+  width: 100%;
+}
+
+.achievement{
+  font-size: 170%;
+}
+
+.last-achieve{
+  text-align: center;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+/* メンバー */
+.card {
+  margin-bottom: 30px;
+  margin-right: 20px;
+  max-width: 200px;
+}
