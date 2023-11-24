@@ -17,6 +17,32 @@ footer{
   height: 5%;
 }
 
+.header-img{
+  width: 1023px;
+  height: 523px;
+}
+
+.navbar-nav{
+  margin-left:auto;
+}
+
+.header-nav{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.menu{
+  display: flex;
+  justify-content: center;
+}
+
+.menu-navi{
+  display: flex;
+  flex-wrap: wrap;/*スマホ表示折り返し用なのでPCのみなら不要*/
+  margin-right: 50px;
+  list-style: none;
+}
+
 .navbar-toggler {
   z-index: 1;
 }
