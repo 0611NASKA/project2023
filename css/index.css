@@ -1,9 +1,15 @@
 body {
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar-toggler {
   z-index: 1;
+}
+
+li {
+  margin: 0px 10px;
 }
 
 /*========= レイアウトのためのCSS ===============*/
@@ -19,16 +25,6 @@ a{
 
 a:hover{
   text-decoration: none;
-}
-
-.navbar-brand{ /*ロゴ*/
-	margin-top: 5px;
-	margin-bottom: 5px;
-	text-align: center;
-}
-
-.navbar-nav{
-margin-left:auto;
 }
 
 .header-nav{

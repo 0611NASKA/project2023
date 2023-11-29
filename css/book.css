@@ -4,16 +4,12 @@ body{
   flex-direction: column;
 }
 
-main{
-  height: 90%;
-}
-
 .navbar-toggler {
   z-index: 1;
 }
 
 li {
-  margin: 10px;
+  margin: 0px 10px;
 }
 
 .background {
@@ -24,6 +20,10 @@ li {
 .header-nav{
   font-weight: bold;
   font-size: 30px;
+}
+
+.img-header{
+  width: 1300px;
 }
 
 .menu{
