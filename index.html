@@ -30,46 +30,42 @@
       </a>
     </span>
 
-    <!-- ローディング画面 -->
-    <div id="splash">
-      <div id="splash_text"></div>
-    </div>
     <!-- 内容開始 -->
-    <div class="background">
-      <header>
-        <nav class="navbar sticky-top navbar-expand-lg borderless navbar-light">
-          <div class="container-fluid">
-            <a href="#"><img src="./img/logo.png" class="rounded shadow-sm"style="width: 50px; height: 50px;"></a>
-            <h4 class="title" style="color: white;">小杉・石井プロジェクト2023</h4>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <ul class="navbar-nav">
-                <li class="nav-item"><a href="#" class="nav-link active header-nav" aria-current="page" style="color: white;">Home</a></li>
-                <li class="nav-item"><a href="#about" class="nav-link active header-nav" aria-current="page" style="color: white;">About</a></li>
-                <li class="nav-item"><a href="#member" class="nav-link header-nav" style="color: white;">Members</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        <div class="menu">
-          <ul class="menu-navi">
-            <li><a href="book.html" class="nav-link active header-nav" style="color: white;">BookShelf</a></li>
-            <li><a href="hack.html" class="nav-link active header-nav" style="color: white;">Hackathon</a></li>
-          </ul>
-        </div>
-        <!-- 集合写真 -->
-        <div class="header-img">
-          <div style="text-align: center;">
-            <img src="img/header.jpg" class="img-header img-fluid">
+    <header>
+      <nav class="navbar sticky-top navbar-expand-lg borderless navbar-light">
+        <div class="container-fluid">
+          <a href="#"><img src="./img/logo.png" class="rounded shadow-sm"style="width: 50px; height: 50px;"></a>
+          <h4 class="title" style="color: white;">小杉・石井プロジェクト2023</h4>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="index.html" class="nav-link active header-nav" aria-current="page">Home</a></li>
+              <li class="nav-item"><a href="book.html" class="nav-link active header-nav" aria-current="page">Bookconnect</a></li>
+              <li class="nav-item"><a href="hack.html" class="nav-link header-nav" aria-current="page">Hackathon</a></li>
+            </ul>
           </div>
         </div>
-      </header>
-      <main>
+      </nav>
+    </header>
+    <main>
+      <div class="background">
         <!-- 概要 -->
         <div class="container">
+          <div class="menu">
+            <ul class="menu-navi">
+              <li><a href="#about" class="nav-link active header-nav" style="color: white;">About</a></li>
+              <li><a href="#member" class="nav-link active header-nav" style="color: white;">Members</a></li>
+            </ul>
+          </div>
+          <!-- 集合写真 -->
+          <div class="header-img">
+            <div style="text-align: center;">
+              <img src="img/header.jpg" class="img-header img-fluid">
+            </div>
+          </div>
           <div class="row">
             <h5 class="about" id="about">About</h5>
             <p class="about-item">
@@ -273,8 +269,8 @@
             <i class="fab fa-instagram-square fa-3x" style="color: black; margin-bottom: 20px; margin-top: 20px; margin-left: 20px;"></i>
           </a>
         </div>
-      </main>
-    </div>
+      </div>
+    </main>
     <!-- jsファイル -->
     <script src="js/app.js"></script>
     <script src="js/jquery.min.js"></script>
