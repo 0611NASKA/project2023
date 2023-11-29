@@ -13,6 +13,12 @@
 		<title>小杉・石井プロジェクト2023</title>
 	</head>
 	<body>
+		<!-- トップに戻るボタン -->
+    <span id="back">
+      <a href="#">
+        <img src="img/arrow.png" alt="">
+      </a>
+    </span>
 		<header>
 			<nav class="navbar sticky-top navbar-expand-lg borderless navbar-light">
 				<div class="container-fluid">
@@ -38,10 +44,10 @@
 				<div class="container">
 					<div class="menu">
             <ul class="menu-navi">
-              <li><a href="book.html" class="nav-link active header-nav" style="color: white;">概要</a></li>
-              <li><a href="hack.html" class="nav-link active header-nav" style="color: white;">成果物</a></li>
-							<li><a href="hack.html" class="nav-link active header-nav" style="color: white;">メンバー</a></li>
-							<li><a href="hack.html" class="nav-link active header-nav" style="color: white;">Tumblr</a></li>
+              <li><a href="#heading" class="nav-link active header-nav" style="color: white;">概要</a></li>
+              <li><a href="#achieve" class="nav-link active header-nav" style="color: white;">成果物</a></li>
+							<li><a href="#member" class="nav-link active header-nav" style="color: white;">メンバー</a></li>
+							<li><a href="#tumblr" class="nav-link active header-nav" style="color: white;">Tumblr</a></li>
             </ul>
           </div>
 					<!-- 写真挿入 -->
@@ -49,7 +55,7 @@
             <img src="img/header.jpg" class="img-header img-fluid mb-5">
           </div>
 					<!-- 概要 -->
-					<div class="heading">概要</div>
+					<div class="heading" id="heading">概要</div>
 					<div class="text mx-3 my-4">
 						<p>
 							　私たち小杉プロジェクトは、新しい電子書籍の楽しみ方を提案します。
@@ -66,7 +72,7 @@
 						</p>
 					</div>
 					<!-- 成果物 -->
-					<div class="heading">成果物</div>
+					<div class="heading" id="achieve">成果物</div>
 					<div class="row my-5 py-5">
 						<div class="col-5">
 							<img src="./img/seika1.png" class="rounded shadow-sm achieve">
@@ -125,7 +131,7 @@
 					<!-- 成果物ここまで -->
 
 					<!-- メンバー -->
-					<div class="heading">メンバー</div>
+					<div class="heading" id="member">メンバー</div>
 					<div class="row justify-content-center">
             <div class="col-6 col-md-4 col-lg-3">
               <div class="card mx-auto">
@@ -214,7 +220,7 @@
           </div>
 					<!-- メンバーここまで -->
 
-					<div class="heading">Tumbler</div>
+					<div class="heading" id="tumblr">Tumbler</div>
 					<iframe class="tumblr-timeline" src="https://bookhack2023.tumblr.com/" style="width: 100%; height:700px;"></iframe>
 				</div>
 			</div>
@@ -235,6 +241,7 @@
 				</a>
 			</div>
 		</footer>
+		<script src="js/app.js"></script>
 		<script src="js/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 	</body>
