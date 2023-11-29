@@ -1,3 +1,4 @@
+/* 共通 */
 body {
   height: 100%;
   display: flex;
@@ -12,12 +13,15 @@ li {
   margin: 0px 10px;
 }
 
-/*========= レイアウトのためのCSS ===============*/
-
 .background{
   background: linear-gradient(90deg, #A7A6D8, #FF0000);
+  min-height: 100vh;
 }
 
+.header-nav{
+  font-weight: bold;
+  font-size: 30px;
+}
 
 a{
   color: #333;
@@ -27,9 +31,8 @@ a:hover{
   text-decoration: none;
 }
 
-.header-nav{
-  font-weight: bold;
-  font-size: 30px;
+.img-header{
+  width: 1300px;
 }
 
 .menu{
@@ -44,6 +47,25 @@ a:hover{
 	list-style: none;
 }
 
+#back {
+  z-index: 1;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+#back img {
+  width: 50px;
+}
+
+.card {
+  margin-bottom: 30px;
+  margin-right: 20px;
+  max-width: 200px;
+}
+
+/* 共通ここまで */
+
 .about{
   font-size: 250%;
   font-weight: 800;
@@ -57,10 +79,6 @@ a:hover{
   font-size: 150%;
   color: white;
   text-align: center;
-}
-
-.img-header{
-  width: 1300px;
 }
 
 .member-head{
@@ -78,36 +96,6 @@ a:hover{
   color: white;
   text-align: center;
   padding-bottom: 10px;
-}
-
-.card {
-  margin-bottom: 30px;
-  margin-right: 20px;
-  max-width: 200px;
-}
-
-.sns-head{
-  font-size: 250%;
-  font-weight: 800;
-  color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-left: 50px;
-}
-
-.blue{
-  background: blue;
-}
-
-#back {
-  z-index: 1;
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-}
-
-#back img {
-  width: 50px;
 }
 
 @media (max-width: 991px) {
