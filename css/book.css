@@ -95,7 +95,7 @@ a:hover{
 .text{
   display: flex;
   justify-content: center;
-  font-size: 185%;
+  font-size: 170%;
 }
 
 /* 成果物 */
@@ -105,6 +105,8 @@ a:hover{
 }
 
 .achievement{
+  display: flex;
+  justify-content: center;
   font-size: 170%;
 }
 
