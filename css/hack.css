@@ -13,8 +13,8 @@ li {
   margin: 0px 10px;
 }
 
-.background{
-  background: linear-gradient(90deg, #A7A6D8, #FF0000);
+.background {
+  background-color: #FFCD91;
   min-height: 100vh;
 }
 

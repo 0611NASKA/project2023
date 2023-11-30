@@ -13,22 +13,27 @@
 		<title>小杉・石井プロジェクト2023</title>
 	</head>
 	<body>
+
+		<span id="back">
+      <a href="#">
+        <img src="img/arrow.png" alt="">
+      </a>
+    </span>
 		<header>
 			<nav class="navbar sticky-top navbar-expand-lg borderless navbar-light">
 				<div class="container-fluid">
+					<a href="#"><img src="./img/logo.png" class="rounded shadow-sm"style="width: 50px; height: 50px;"></a>
 					<h4 class="title p-3">ハッカソンチーム</h4>
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
 						aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
 					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-						<!-- 右寄せナビゲーション -->
 						<ul class="navbar-nav ms-auto">
 							<li class="nav-item"><a href="index.html" class="nav-link active header-nav" aria-current="page">Home</a></li>
 							<li class="nav-item"><a href="book.html" class="nav-link active header-nav" aria-current="page">Bookconnect</a></li>
 							<li class="nav-item"><a href="hack.html" class="nav-link active header-nav" aria-current="page">Hackathon</a></li>
 						</ul>
-						<!-- ナビゲーション終わり -->
 					</div>
 				</div>
 			</nav>
@@ -42,8 +47,6 @@
             <ul class="menu-navi">
               <li><a href="book.html" class="nav-link active header-nav" style="color: white;">概要</a></li>
               <li><a href="hack.html" class="nav-link active header-nav" style="color: white;">成果</a></li>
-							<li><a href="hack.html" class="nav-link active header-nav" style="color: white;">メンバー</a></li>
-							<li><a href="hack.html" class="nav-link active header-nav" style="color: white;">Tumblr</a></li>
             </ul>
           </div>
 					<div style="text-align: center;">
@@ -53,31 +56,23 @@
 					<div class="heading">概要</div>
 					<div class="text mx-3 my-4">
 						<p>
-							私たち小杉・石井プロジェクトは、現代の教育における情報の重要性に着目しました。
+							　私たちハッカソンチームは、現代の教育における情報の重要性に着目しました。
 							特に、プログラミングを行うための論理的思考力を身につけることが大切だと考え、
-							プログラミングの面白さを小学生に伝えることにしました。具体的には、私たちが小
-							学校を訪問し、ロボットを使ったプログラミング教室を開催することにしました。
-							<!--訂正前 2020年から小学生の授業にプログラミングを取り入れたり、大学入試共通テストに
-							2025年から情報の科目が入ったりと情報教育の重要性が増しています。
-							情報を学ぶ大学生として、こういった問題に対し何かアプローチができないかと考え、
-							本プロジェクトでは小学生向けのプログラミング教室を開催することにしました。 -->
-						</p><br>
-						<p>
-							三田小学校に協力していただき、およそ90名の小学6年生を対象にプログラミングの授
-							業を行いました。小学生たちは、mbot2というロボットとスクラッチ型のプログラミ
-							ングツールを用いて、自分たちが考えたプログラムで、実際にロボットを動かすこと
-							の楽しさを感じてもらいました。このプログラミング教室で、小学生たちはプログラ
-							ムの基礎を学び、条件分岐や繰り返しといった複雑な概念を使ってロボットを動かし
-							ました。
-							<!-- 小学校との打ち合わせを経て、これまでの小学校との授業では使っていなかった自動運転を
-							テーマにすることとして、mBot2というロボットをプログラミングして動かしてもらいました。
-							その結果、6年生の授業でロボットの自動運転による障害物競争を行い、
-							どうゴールを目指すかという問題をプログラミングで解決する課題に取り組みました。 -->
+							プログラミングの面白さを小学生に伝えることにしました。
+							具体的には、私たちが小学校を訪問し、ロボットを使ったプログラミング教室を開催する
+							ことにしました。三田小学校に協力していただき、およそ90名の小学6年生を対象に
+							プログラミングの授業を行いました。小学生たちは、mbot2というロボットとスクラッチ型の
+							プログラミングツールを用いて、自分たちが考えたプログラムで、
+							実際にロボットを動かすことの楽しさを感じてもらいました。
+							このプログラミング教室で、小学生たちはプログラムの基礎を学び、
+							条件分岐や繰り返しといった複雑な概念を使ってロボットを動かしました。
+							このような体験を通じて、彼らがプログラミングに興味を持ち、
+							将来のキャリアについても考えるきっかけになると考えます。
 						</p>
 					</div>
 					<!-- 成果 -->
 					<div class="heading">成果</div>
-					<div class="row mt-3 pt-3 mb-3">
+					<div class="row mt-3 pt-3 mb-3 m-auto">
 						<div class="col-6">
               <img src="./img/hack1.jpg" class="rounded shadow-sm achieve img-fluid" style="width: 600px; height: 400px;">
 						</div>
@@ -89,27 +84,25 @@
 					<div class="row mb-3 pb-3">
 						<div class="col-12 d-flex justify-content-center">
               <p class="mx-5 achievement">
-								<!-- 変更 -->
-								<p>
-								いくつかの小学校と連絡をとり、開催の日程やプログラミング教室の内容を相談したうえで開催する小学校を決定しました。
-								2回ほど三田小学校に伺い、校長先生と理科の先生の2人と打ち合わせを行いました。打ち合わせの中で、実際に書いたコードでロボットを動かすというのが
-								面白そうだという案が出て、この方針でいくことになりました。
-								</p>
-								<p>
-								ロボットは、望月先生からレゴマインドストームを借りました。
-								自分たちもロボットの知識があるわけではないので、まずは自分たちで
-								使ってみることにしました。最初にまっすぐ走って、センサーが距離を検知したら曲がるか、
-								センサーがカラーテープを検知したら曲がるかを試しました。センサーの検知はうまくいったのですが、
-								90度曲がるのがうまく行きませんでした。それは、ロボットは常に誤差があるからで、
-								そこがロボットプログラミングの大変な点だと気がつきました。その後、
-								ジャイロセンサーを使って90度曲がることに成功し、実際に作ったコースを完走させることに成功しました。
-								しかし、マインドストームの点検をしている時に、動かないものがあり、小学校で使う分が確保できなくなりました。
-								</p>
-								<p>
-								そこで、石井先生からmbot2というロボットを借りることになりました。
-								mbot2にも初期不良がありました。やはりロボットは繊細です。その後、mbot2を6台確保し、
-								実際にコースを走らせることもできました。資料を完成させ、模擬講義を行い、何度もリハーサルをしました。
-								前日準備も行い、夕方から夜の間に小学校に行って準備をしました。
+								　いくつかの小学校と連絡をとり、開催の日程やプログラミング教室の内容を相談したうえで
+								開催する小学校を三田小学校に決定しました。
+								　2回ほど三田小学校に伺い、校長先生と理科の先生の2人と打ち合わせを行いました。
+								1回目の打ち合わせでは、これまでに小学生がプログラミングでどのような内容を
+								学んでいるかについての話を聞き、実際にどのような内容の授業を行うかについての提案を
+								行いました。また、授業を開催する日や時間割、小学生の人数や写真撮影の許可などの内容に
+								ついても話し合いました。話し合いの中で、Scratchのようなタイプのコードを使って実際に
+								ロボットを動かしてみると面白いのではないかという案が出て、この方針でいくことになりました。
+								　2回目の打ち合わせでは、こちら側が作った仮の授業の資料を作って持っていき、
+								使うロボットの紹介や資料の修正などを行いました。三田小学校でも、
+								センサーのあるキットを使った授業をしたことがあるらしく、
+								その内容と自分たちが行う授業を絡ませることになりました。
+								また、授業を通してどのようなことをテーマにするか、
+								どのようなことを小学生に伝えたいかなどといった部分が曖昧になっていたので、
+								そこについても再び考え直すことになりました。話し合いの結果、
+								プログラミングの面白さや考え方、生活の中でプログラミングがどのように活かされているのか、
+								幅広い分野に興味を持つことの大切さなどを軸に据えることになりました。
+								その後、準備や当日の流れについての調整などを行い、あとはこちらで資料の修正、
+								授業の練習などを当日まで行っていくことになりました。
 							</p>
 						</div>
 					</div>
@@ -117,15 +110,31 @@
 					<div class="row mb-3 pb-3">
 						<div class="col-7">
               <p class="mx-5 achievement">
-								　1日目の授業当日は開始の1時間前に来て、ロボット・障害物の調整を行いました。
-								授業が始まり小学生は5人1組でロボットとパソコンを使いながら、進む、曲がる、
-								センサーが反応するにはどうしたら良いか考えてもらいました。それが終わると、
-								本題である障害物競走に取り組んでもらいプログラミングの楽しさを感じてもらいました。<br>
-								　2日目ではまず授業前に1日目の反省を受けて、改善をしました。
-								1つ目に変数の説明が統一されていなかったということです。授業前に話し合うことで
-								メンバー間の意思統一をすることができました。2つ目は障害物競走に取り組む時間が
-								短かったということです。それ以前の演習の時間を短くすることで充分な時間を取ることができました。
-								その結果、1日目よりもゴールに辿り着くグループが増え、スムーズに進行することができました。
+								　まず初めに、望月先生からレゴマインドストームというロボットを借りました。
+								レゴマインドストームとは、プログラミングとロボティクスを学ぶための教育用ロボットキットです。
+								レゴのブロックでロボットを作り、ブロックをつなげてプログラムします。
+								センサーやモーターも使えて、楽しみながらプログラミングの基本を学べるのが特徴です。
+								プロジェクトメンバーで実際に使用したことある人は少なく、自分たちで学び直す必要がありました。
+								そのため、プログラムの仕方や、実際に走らせてみて、プログラム通りにロボットが動くかなど、
+								テストを繰り返し検証しました。その後、超音波センサー、ジャイロセンサー、
+								カラーセンサーの３つのセンサーを使用し、それらを使ったロボットの動きを確かめました。
+								センサーを使うことで、プログラムがより複雑になり、ロボットを思うように動かすことが難しくなりました。
+								特に90度ちょうど曲げることが難しく、マインドストームを使いこなすのに苦労した。
+								そこで、ロボットにも個体差や誤差があり、常に数字の通り動くわけではないことが、
+								プログラミングでモノを動かすことの大変なところだと感じました。その後調整が終わり、
+								コースを作って障害物競争を行った。しかし、小学校に持って行く予定だったマインドストームの動作確認を
+								行ったところ、何台か動かないものがあることが判明し、急遽マインドストームの代わりとなるロボットを
+								探すことになってしまった。そこで、担当の石井先生と相談した結果、
+								mbot2というロボットをお借りすることになりました。
+							</p>
+							<p class="mx-5 achievement">
+								　mbot2でも90度に綺麗に曲がれなかったり、センサーがしっかり反応しなかったりするなど上手くいかないことがありました。
+								やはりロボットは繊細で、試行錯誤が必要だなと感じました。
+								mbot2を6台用意して実際に障害物やカラーテープを用いて試走を繰り返しながら、
+								試作したコースを走らせて小学生向けのコースを検討しました。
+								そして授業用の資料を完成させ、模擬授業を行い、何度もリハーサルをしました。
+								前日の準備では夕方から夜の間に小学校に行って、コースを設置し、
+								実際に試走して最終確認を行いました。
 							</p>
 						</div>
 						<div class="col-5">
@@ -134,92 +143,6 @@
 						</div>
 					</div>
 					<!-- 成果物ここまで -->
-
-					<!-- メンバー -->
-					<div class="heading">メンバー</div>
-					<div class="row justify-content-center">
-            <div class="col-6 col-md-4">
-              <div class="card mx-auto">
-                <img class="card-img-top" src="img/wada.jpeg">
-                <div class="card-body">
-                  <h5 class="card-title">NE21-1009B</h5>
-                  <p class="card-text">
-                    和田雄平<br>
-                    ラーメン大好き
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-6 col-md-4">
-              <div class="card mx-auto">
-                <img class="card-img-top" src="img/imamura.jpeg">
-                <div class="card-body">
-                  <h5 class="card-title">NE21-1135C</h5>
-                  <p class="card-text">
-                    今村航大<br>
-                    海外サッカーが好き
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-6 col-md-4">
-              <div class="card mx-auto">
-                <img class="card-img-top" src="img/kanemaru.jpg">
-                <div class="card-body">
-                  <h5 class="card-title">NE21-1192G</h5>
-                  <p class="card-text">
-                    金丸陽星<br>
-                    節分用の豆を常食している
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-6 col-md-4">
-              <div class="card mx-auto">
-                <img class="card-img-top" src="img/andou.jpg">
-                <div class="card-body">
-                  <h5 class="card-title">NE21-1215E</h5>
-                  <p class="card-text">
-                    安藤駿佑<br>
-                    パチンコ大好き
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-6 col-md-4">
-              <div class="card mx-auto">
-                <img class="card-img-top" src="img/hagiwara.jpeg">
-                <div class="card-body">
-                  <h5 class="card-title">NE20-1183D</h5>
-                  <p class="card-text">
-                    萩原直樹<br>
-                    白猫プロジェクトしか勝たん
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-6 col-md-4">
-              <div class="card mx-auto">
-                <img class="card-img-top" src="img/imamura_m.jpeg">
-                <div class="card-body">
-                  <h5 class="card-title">NE20-1033H</h5>
-                  <p class="card-text">
-                    今村眞夏美<br>
-                    音楽と柴犬が生きがい
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-					<!-- メンバーここまで -->
-
-					<div class="heading">Tumbler</div>
-					<iframe class="tumblr-timeline" src="https://bookhack2023.tumblr.com/" style="width: 100%; height:700px;"></iframe>
 				</div>
 			</div>
 		</main>
@@ -239,6 +162,7 @@
 				</a>
 			</div>
 		</footer>
+		<script src="js/app.js"></script>
 		<script src="js/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 	</body>
