@@ -96,9 +96,3 @@ a:hover{
   text-align: center;
   padding-bottom: 10px;
 }
-
-@media (max-width: 991px) {
-  .title{
-    font-size: 90%;
-  }
-}
