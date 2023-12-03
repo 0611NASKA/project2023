@@ -9,10 +9,6 @@ body {
   z-index: 1;
 }
 
-li {
-  margin: 0px 10px;
-}
-
 .background{
   background: linear-gradient(90deg, #A7A6D8, #FF0000);
   min-height: 100vh;
