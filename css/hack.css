@@ -92,6 +92,10 @@ a:hover{
   width:100%;
 }
 
+.achieve-head{
+  height: 400px;
+}
+
 .achievement{
   font-size: 170%;
 }
@@ -111,5 +115,9 @@ a:hover{
     display: flex;
     justify-content: center;
     font-size: 90%;
+  }
+
+  .achieve-head{
+    height: 100%;
   }
 }
